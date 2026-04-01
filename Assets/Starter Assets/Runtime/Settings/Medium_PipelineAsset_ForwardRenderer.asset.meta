@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 40cf551b42f336a429fa80b92f3af944
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 267961
+  packageName: 'Starter Assets: Character Controllers | URP'
+  packageVersion: 2.0.2
+  assetPath: Assets/Starter Assets/Runtime/Settings/Medium_PipelineAsset_ForwardRenderer.asset
+  uploadId: 721456

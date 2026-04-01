@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 89deb7c2178bdf5479e21e88acabe719
+  productGUID: a8698c807e8e743839f06c82fbde7865
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Escape-The-Airship
+  productName: 2026-Game477-3DProject
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -846,14 +846,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Escape-The-Airship
+  metroPackageName: 2026-Game477-3DProject
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Escape-The-Airship
+  metroApplicationDescription: 2026-Game477-3DProject
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -924,11 +924,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: bc06aaa9-598d-4037-840c-67b653e7c296
+  cloudProjectId: 0150496a-87c2-4bbb-881a-501d824b9d60
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Escape-The-Airship
-  organizationId: emb083
+  projectName: 2026-Game477-3DProject
+  organizationId: blizstudio
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

@@ -106,3 +106,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 330215
+  packageName: UModeler X Pro
+  packageVersion: Pro 1.1.28, Hub 1.1.12
+  assetPath: Assets/UModeler-Hub/Editor/Resources/Tripolygon/UModeler/Hub/Views/Hubs/CaptionView/SignIn@2x.png
+  uploadId: 888176

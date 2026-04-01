@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7ef02ace2da2f0041bd97032d41f33f4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 267961
+  packageName: 'Starter Assets: Character Controllers | URP'
+  packageVersion: 2.0.2
+  assetPath: Assets/Starter Assets/Sample/Environment/Prefabs/Environment_Prefab.prefab
+  uploadId: 721456

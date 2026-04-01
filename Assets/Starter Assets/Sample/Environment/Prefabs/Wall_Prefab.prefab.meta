@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 88525b3f5108aa34dbd577e15796aa8e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 267961
+  packageName: 'Starter Assets: Character Controllers | URP'
+  packageVersion: 2.0.2
+  assetPath: Assets/Starter Assets/Sample/Environment/Prefabs/Wall_Prefab.prefab
+  uploadId: 721456
