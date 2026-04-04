@@ -27,6 +27,7 @@ public class WireBoxPuzzle : MonoBehaviour
       //}
       tumblers.ForEach(tumbler => tumbler.ChangeState(TumblerStates.DISABLED));
       lidDoorAnimator.SetTrigger("lidopen");
+      // SoundManager.Play(SoundType.PICKUP); 
     }
 
     //bool[] correctNumbers = new bool[] {

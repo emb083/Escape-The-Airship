@@ -81,12 +81,14 @@ public class WireBoxTumbler : MonoBehaviour {
     curRotation=transform.rotation;
     targetRotation=curRotation * Quaternion.Euler(Vector3.down * (360/ numberOfSides));
     t=0;
+    // SoundManager.Play(SoundType.TUMBLE); 
   }
   private void StateEnter_TumblingDown() {
     // used enter method
     curRotation=transform.rotation;
     targetRotation=curRotation * Quaternion.Euler(Vector3.up * (360/ numberOfSides));
     t=0;
+    // SoundManager.Play(SoundType.TUMBLE); 
   }
 
   private void StateEnter_Disabled(){
