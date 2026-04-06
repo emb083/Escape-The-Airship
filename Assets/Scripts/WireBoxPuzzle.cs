@@ -10,6 +10,7 @@ public class WireBoxPuzzle : MonoBehaviour
   // private fields
   private Animator lidDoorAnimator;
   private int[] code;
+  private bool isOpen=false;
 
   private void Start() {
     lidDoorAnimator = GetComponent<Animator>();
@@ -17,6 +18,10 @@ public class WireBoxPuzzle : MonoBehaviour
   }
 
   private void Update() {
+   if (isOpen) // avoids the sound from being spammed since it is in update.
+    {
+      return;
+    }
     bool comboCorrect = true;
     for (int i = 0; i < tumblers.Count; i++) {
       comboCorrect &= (tumblers[i].GetNumber() == code[i]);
@@ -25,9 +30,11 @@ public class WireBoxPuzzle : MonoBehaviour
       //foreach (var tumbler in tumblers) {
       //  tumbler.ChangeState(TumblerStates.DISABLED);
       //}
+      isOpen=true; // if open is true the sound will be played.
+      SoundManager.Play(SoundType.OPEN);
       tumblers.ForEach(tumbler => tumbler.ChangeState(TumblerStates.DISABLED));
       lidDoorAnimator.SetTrigger("lidopen");
-      // SoundManager.Play(SoundType.PICKUP); 
+       
     }
 
     //bool[] correctNumbers = new bool[] {

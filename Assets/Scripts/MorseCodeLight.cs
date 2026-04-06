@@ -45,7 +45,7 @@ public class MorseCodeLight : MonoBehaviour
                 foreach (char symbol in translated) // the symbols are translated into flashes. "." 0.5 seconds. "-" 1.5 seconds.
                 {
                     light.intensity = brightness; // light on.
-
+                    //SoundManager.Play(SoundType.LIGHT);
                     if (symbol == '.')
                     {
                         yield return new WaitForSeconds(dotLength); // shorter flash for dot.
