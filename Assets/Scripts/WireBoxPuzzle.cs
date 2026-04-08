@@ -13,7 +13,7 @@ public class WireBoxPuzzle : MonoBehaviour
   private bool isOpen=false;
 
   private void Start() {
-    lidDoorAnimator = GetComponent<Animator>();
+    //lidDoorAnimator = GetComponent<Animator>();
     code = new[] { 3, 4, 6 };
   }
 
