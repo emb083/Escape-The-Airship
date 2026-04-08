@@ -2,6 +2,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum SoundType {
+  PIPE,
+  FALL,
   TUMBLE,
   PICKUP,
   WALKING,
@@ -56,8 +58,10 @@ public class SoundManager : MonoBehaviour {
     audioSrc = GetComponent<AudioSource>();
     sounds = new() {
      // {SoundType.PICKUP, new SoundCollection("safe-door") },
+      {SoundType.PIPE, new SoundCollection("metal_squeak0","metal_squeak1","metal_squeak2","metal_squeak3","metal_squeak4","metal_squeak5","metal_squeak6") },
       {SoundType.TUMBLE, new SoundCollection("tumbler_spin_1","tumbler_spin_2","tumbler_spin_3","tumbler_spin_4") },
       {SoundType.OPEN, new SoundCollection("lid_open")},
+      {SoundType.FALL, new SoundCollection("gear_fall")},
       {SoundType.LIGHT, new SoundCollection("light_sound")},
       //{SoundType.WALKING, new SoundCollection("walking") },
     };

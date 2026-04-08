@@ -46,8 +46,8 @@ public class PipePuzzle : MonoBehaviour
             isConnected = true; // if open is true the sound will be played.
             Debug.Log("Finished");
             pipes.ForEach(pipe => pipe.ChangeState(PipeStates.DISABLED));
-            /*SoundManager.Play(SoundType.OPEN);
-            lidDoorAnimator.SetTrigger("lidopen");*/
+            SoundManager.Play(SoundType.FALL);
+            //lidDoorAnimator.SetTrigger("lidopen");
 
         }
 

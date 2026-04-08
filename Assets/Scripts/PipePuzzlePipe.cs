@@ -94,7 +94,7 @@ public class PipePuzzlePipe : MonoBehaviour {
         curRotation = transform.rotation;
         targetRotation = curRotation * Quaternion.Euler(Vector3.right * (360 / numberOfSides));
         t = 0;
-        SoundManager.Play(SoundType.TUMBLE);
+        SoundManager.Play(SoundType.PIPE);
     }
     private void StateEnter_RotateCounter()
     {
@@ -102,7 +102,7 @@ public class PipePuzzlePipe : MonoBehaviour {
         curRotation = transform.rotation;
         targetRotation = curRotation * Quaternion.Euler(Vector3.left * (360 / numberOfSides));
         t = 0;
-        SoundManager.Play(SoundType.TUMBLE);
+        SoundManager.Play(SoundType.PIPE);
     }
 
     private void StateEnter_Disabled()
