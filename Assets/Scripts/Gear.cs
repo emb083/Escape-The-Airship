@@ -32,8 +32,6 @@ public class Gear : MonoBehaviour {
     turningCoroutine = null;
 
     connected = (transform.rotation.x == 0) ? true : false;
-    print($"Gear #{gearID} connected: {connected}");
-
     allowedTransitions = new() {
       new(State.IDLE, State.TURNING),
       new(State.TURNING, State.IDLE),
@@ -75,6 +73,8 @@ public class Gear : MonoBehaviour {
     transform.rotation = targetRot;
     ChangeState(State.IDLE);
   }
+
+  public bool GetConnection() => connected;
 
   public void ChangeState(State newState) {
     if (allowedTransitions.Contains(new(State, newState))) {
@@ -122,7 +122,6 @@ public class Gear : MonoBehaviour {
     } else {
         connected = false;
     }
-    print($"Gear #{gearID} connected: {connected}");
   }
 
   private void StateExit_Disabled() {
