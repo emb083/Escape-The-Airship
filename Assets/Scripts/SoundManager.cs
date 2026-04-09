@@ -9,6 +9,7 @@ public enum SoundType {
   WALKING,
   OPEN,
   LIGHT,
+  GEAR,
 }
 
 public class SoundCollection {
@@ -64,6 +65,7 @@ public class SoundManager : MonoBehaviour {
       {SoundType.FALL, new SoundCollection("gear_fall")},
       {SoundType.LIGHT, new SoundCollection("light_sound")},
       //{SoundType.WALKING, new SoundCollection("walking") },
+      {SoundType.GEAR, new SoundCollection("gear_turning")},
     };
   }
 

@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
+using System.Collections;
 
 
 public class GearBox : MonoBehaviour
@@ -21,7 +22,7 @@ public class GearBox : MonoBehaviour
 
  private void Start()
     {
-        
+        // makes the gears in the gear box not visalble to begin with
         GearLeft.SetActive(false);
         GearMiddle.SetActive(false);
         GearRight.SetActive(false);
@@ -42,10 +43,10 @@ public class GearBox : MonoBehaviour
         }
     }
 
-    void DoorOpen()
+    void DoorOpen() // this starts the coroutine when all gears are sloted into the gear box along with the animations and sounds.
     {
        isDoorOpen=true;
-        
+        StartCoroutine(gearSound());
         GearLeft.SetActive(true);
         GearMiddle.SetActive(true);
         GearRight.SetActive(true);
@@ -55,6 +56,18 @@ public class GearBox : MonoBehaviour
         unlocked1.SetTrigger("unlock");
         unlocked2.SetTrigger("unlock");
         unlocked3.SetTrigger("unlock");
-       exitOpen.SetTrigger("exitDoorOpen"); // add door open animation here. 
+       exitOpen.SetTrigger("exitDoorOpen"); 
+       SoundManager.Play(SoundType.OPEN);
+    }
+
+    IEnumerator gearSound() // I used a coroutine because a regular while loop crashes the whole program.
+    {
+        while (isDoorOpen)
+        {
+            
+            SoundManager.Play(SoundType.GEAR);
+            yield return new WaitForSeconds(2f);
+        }
+        
     }
 }

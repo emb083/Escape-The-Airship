@@ -6,7 +6,8 @@ public class PipePuzzle : MonoBehaviour
 {
     // set in inspector
     public List<PipePuzzlePipe> pipes;
-
+    public GameObject gear;
+    public Animator Gearfalling;
     // private fields
     //private Animator lidDoorAnimator;
     private int[] code;
@@ -17,6 +18,7 @@ public class PipePuzzle : MonoBehaviour
     {
         //lidDoorAnimator = GetComponent<Animator>();
         code = new[] { 0, 1, 1, 0, 0, 2, 0, 2, 2, 0, 1, 0, 0, 0, 2, 2, 1,0 };
+        gear.SetActive(false);
     }
 
     // Update is called once per frame
@@ -46,8 +48,9 @@ public class PipePuzzle : MonoBehaviour
             isConnected = true; // if open is true the sound will be played.
             Debug.Log("Finished");
             pipes.ForEach(pipe => pipe.ChangeState(PipeStates.DISABLED));
+            gear.SetActive(true);
+            Gearfalling.SetTrigger("falling");
             SoundManager.Play(SoundType.FALL);
-            //lidDoorAnimator.SetTrigger("lidopen");
 
         }
 
