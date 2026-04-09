@@ -8,7 +8,7 @@ public class WireBoxPuzzle : MonoBehaviour
   public List<WireBoxTumbler> tumblers;
 
   // private fields
-  private Animator lidDoorAnimator;
+  public Animator lidDoorAnimator;
   private int[] code;
   private bool isOpen=false;
 
