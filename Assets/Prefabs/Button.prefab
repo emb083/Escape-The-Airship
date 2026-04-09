@@ -54,7 +54,7 @@ MonoBehaviour:
   materialsPath: []
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_72baa2d3-f06f-4d44-8baf-30516c6d2b94
+    name: UM_OperatedMesh_925abdc9-8751-49bc-bda3-f9151330ba64
     skinnedMesh: 0
     sharedMesh: {fileID: 7394515884636465933}
     buidVersion:
@@ -67,7 +67,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 72baa2d3-f06f-4d44-8baf-30516c6d2b94
+  sourceMeshRendererGUID: 925abdc9-8751-49bc-bda3-f9151330ba64
   guid: a975bba0-f7e3-4317-946f-bb726498130f
   localOptions:
     RecalculateTangents: 0
@@ -155,6 +155,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4553557523190370615}
+  - component: {fileID: 2781873145874059220}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -179,6 +180,27 @@ Transform:
   - {fileID: 687338265607674603}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2781873145874059220
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5754066303126205098}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.055165414, y: 0.12796818, z: 0.14950837}
+  m_Center: {x: -0.02507592, y: 0.041374642, z: 0.14714871}
 --- !u!1 &8869003335457656825
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,7 +255,7 @@ MonoBehaviour:
   materialsPath: []
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0e248e5a-e700-4fd0-903b-6b1d81212211
+    name: UM_OperatedMesh_3aa9f7ec-7ccc-4cda-918c-164651886b9a
     skinnedMesh: 0
     sharedMesh: {fileID: -9055190498360633112}
     buidVersion:
@@ -246,7 +268,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0e248e5a-e700-4fd0-903b-6b1d81212211
+  sourceMeshRendererGUID: 3aa9f7ec-7ccc-4cda-918c-164651886b9a
   guid: 3b55fa45-ed5d-4ff3-91d2-9729a45764e8
   localOptions:
     RecalculateTangents: 0

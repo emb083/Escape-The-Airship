@@ -524,7 +524,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_1019ca31-f1f1-4267-8ed1-4b82a58f2824
+    name: UM_OperatedMesh_bc9c7338-8229-48bc-9cf6-b9b58204cfb4
     skinnedMesh: 0
     sharedMesh: {fileID: -1191386325886534672}
     buidVersion:
@@ -537,7 +537,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 1019ca31-f1f1-4267-8ed1-4b82a58f2824
+  sourceMeshRendererGUID: bc9c7338-8229-48bc-9cf6-b9b58204cfb4
   guid: 5af0eaee-f545-4ff1-825b-5e374d8b78cd
   localOptions:
     RecalculateTangents: 0
@@ -1335,6 +1335,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4182478857170949207}
+  - component: {fileID: 3709333701713678291}
   m_Layer: 0
   m_Name: Gear 3
   m_TagString: Untagged
@@ -1358,6 +1359,18 @@ Transform:
   - {fileID: 1662690410505362823}
   m_Father: {fileID: 6679010063220678345}
   m_LocalEulerAnglesHint: {x: 0, y: 179.605, z: 0}
+--- !u!114 &3709333701713678291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3436624325414991885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86cf46a626f47c34fa082f44011fc3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gear
 --- !u!1 &4172304877538086946
 GameObject:
   m_ObjectHideFlags: 0
@@ -1367,6 +1380,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3158543727909242371}
+  - component: {fileID: 6853251673226378469}
   m_Layer: 0
   m_Name: Gear 4
   m_TagString: Untagged
@@ -1390,6 +1404,18 @@ Transform:
   - {fileID: 5238131936902362037}
   m_Father: {fileID: 6679010063220678345}
   m_LocalEulerAnglesHint: {x: 90, y: 179.605, z: 0}
+--- !u!114 &6853251673226378469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4172304877538086946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86cf46a626f47c34fa082f44011fc3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gear
 --- !u!1 &4212576076331596761
 GameObject:
   m_ObjectHideFlags: 0
@@ -2781,6 +2807,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 532637940413394273}
+  - component: {fileID: 1453537024444574081}
   m_Layer: 0
   m_Name: Gear 2
   m_TagString: Untagged
@@ -2804,6 +2831,18 @@ Transform:
   - {fileID: 4355197921797664997}
   m_Father: {fileID: 6679010063220678345}
   m_LocalEulerAnglesHint: {x: 90, y: 179.605, z: 0}
+--- !u!114 &1453537024444574081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8331841812953683763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86cf46a626f47c34fa082f44011fc3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gear
 --- !u!1 &8522420040854312555
 GameObject:
   m_ObjectHideFlags: 0
@@ -2913,6 +2952,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4298988251413315957}
+  - component: {fileID: 3237814276052988053}
   m_Layer: 0
   m_Name: Gear 1
   m_TagString: Untagged
@@ -2936,6 +2976,18 @@ Transform:
   - {fileID: 6245457562277721585}
   m_Father: {fileID: 6679010063220678345}
   m_LocalEulerAnglesHint: {x: 0, y: 179.605, z: 0}
+--- !u!114 &3237814276052988053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8601366905355567230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86cf46a626f47c34fa082f44011fc3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gear
 --- !u!1 &8706781216028255322
 GameObject:
   m_ObjectHideFlags: 0
@@ -2945,6 +2997,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5385639899858975662}
+  - component: {fileID: 6731593626781855714}
   m_Layer: 0
   m_Name: Gear 5
   m_TagString: Untagged
@@ -2968,6 +3021,18 @@ Transform:
   - {fileID: 5222793668643478337}
   m_Father: {fileID: 6679010063220678345}
   m_LocalEulerAnglesHint: {x: 0, y: 179.605, z: 0}
+--- !u!114 &6731593626781855714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8706781216028255322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86cf46a626f47c34fa082f44011fc3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gear
 --- !u!1001 &1503358241496414175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3224,7 +3289,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5754066303126205098, guid: 63c3c34b9d7759b40b85ec2f9d7c07fc, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4341424707051172008}
+      addedObject: {fileID: 322489243765702688}
   m_SourcePrefab: {fileID: 100100000, guid: 63c3c34b9d7759b40b85ec2f9d7c07fc, type: 3}
 --- !u!4 &860591581446041776 stripped
 Transform:
@@ -3236,27 +3301,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5754066303126205098, guid: 63c3c34b9d7759b40b85ec2f9d7c07fc, type: 3}
   m_PrefabInstance: {fileID: 3801059022910103943}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &4341424707051172008
-BoxCollider:
+--- !u!114 &322489243765702688
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8870578175335748397}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0484743, y: 0.14058448, z: 0.15957765}
-  m_Center: {x: -0.017776616, y: 0.038789514, z: 0.15115441}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97af62a663897724082103518476707b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RotateGear
+  gear1: {fileID: 1453537024444574081}
+  gear2: {fileID: 3709333701713678291}
 --- !u!1001 &5128941458326343314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3327,34 +3385,27 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5754066303126205098, guid: 63c3c34b9d7759b40b85ec2f9d7c07fc, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 826285847657304526}
+      addedObject: {fileID: 5261498619887699688}
   m_SourcePrefab: {fileID: 100100000, guid: 63c3c34b9d7759b40b85ec2f9d7c07fc, type: 3}
 --- !u!1 &646026603795659832 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5754066303126205098, guid: 63c3c34b9d7759b40b85ec2f9d7c07fc, type: 3}
   m_PrefabInstance: {fileID: 5128941458326343314}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &826285847657304526
-BoxCollider:
+--- !u!114 &5261498619887699688
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 646026603795659832}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0484743, y: 0.14058448, z: 0.15957765}
-  m_Center: {x: -0.017776616, y: 0.038789514, z: 0.15115441}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97af62a663897724082103518476707b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RotateGear
+  gear1: {fileID: 3237814276052988053}
+  gear2: {fileID: 6853251673226378469}
 --- !u!4 &8655027209561513893 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4553557523190370615, guid: 63c3c34b9d7759b40b85ec2f9d7c07fc, type: 3}
@@ -3430,34 +3481,27 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5754066303126205098, guid: 63c3c34b9d7759b40b85ec2f9d7c07fc, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3344603518773805394}
+      addedObject: {fileID: 3703653487515748681}
   m_SourcePrefab: {fileID: 100100000, guid: 63c3c34b9d7759b40b85ec2f9d7c07fc, type: 3}
 --- !u!1 &613373460831148390 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5754066303126205098, guid: 63c3c34b9d7759b40b85ec2f9d7c07fc, type: 3}
   m_PrefabInstance: {fileID: 5141333110387895244}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &3344603518773805394
-BoxCollider:
+--- !u!114 &3703653487515748681
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 613373460831148390}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0484743, y: 0.14058448, z: 0.15957765}
-  m_Center: {x: -0.017776616, y: 0.038789514, z: 0.15115441}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97af62a663897724082103518476707b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RotateGear
+  gear1: {fileID: 3709333701713678291}
+  gear2: {fileID: 6731593626781855714}
 --- !u!4 &8676416989906746107 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4553557523190370615, guid: 63c3c34b9d7759b40b85ec2f9d7c07fc, type: 3}
@@ -3657,34 +3701,27 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5754066303126205098, guid: 63c3c34b9d7759b40b85ec2f9d7c07fc, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5479943448701101335}
+      addedObject: {fileID: 712879828066363247}
   m_SourcePrefab: {fileID: 100100000, guid: 63c3c34b9d7759b40b85ec2f9d7c07fc, type: 3}
 --- !u!1 &4308909756414974124 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5754066303126205098, guid: 63c3c34b9d7759b40b85ec2f9d7c07fc, type: 3}
   m_PrefabInstance: {fileID: 8365117762795055622}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &5479943448701101335
-BoxCollider:
+--- !u!114 &712879828066363247
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4308909756414974124}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0484743, y: 0.14058448, z: 0.15957765}
-  m_Center: {x: -0.017776616, y: 0.038789514, z: 0.15115441}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97af62a663897724082103518476707b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RotateGear
+  gear1: {fileID: 1453537024444574081}
+  gear2: {fileID: 6853251673226378469}
 --- !u!4 &5415475446821452593 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4553557523190370615, guid: 63c3c34b9d7759b40b85ec2f9d7c07fc, type: 3}
