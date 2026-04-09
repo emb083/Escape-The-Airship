@@ -2062,12 +2062,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5721476153098774911, guid: 2ae48f4f790b4474cbae7380133b30de, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 54eb0a880c35ecd4fa56b3b6c33e8aaa, type: 2}
     - target: {fileID: 8061165486244094526, guid: 2ae48f4f790b4474cbae7380133b30de, type: 3}
       propertyPath: m_Name
       value: Room2 1 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4584957155134386093, guid: 2ae48f4f790b4474cbae7380133b30de, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ae48f4f790b4474cbae7380133b30de, type: 3}
