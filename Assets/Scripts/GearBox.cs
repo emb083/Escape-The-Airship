@@ -7,13 +7,17 @@ public class GearBox : MonoBehaviour
 {
     public GameObject ExitDoor;
     public GameObject GearLeft, GearRight, GearMiddle;
-
+    public GameObject lock1, lock2, lock3;
    private int gearsNeeded=3;
    private bool isDoorOpen=false;
 
    public Animator counterClock;
    public Animator clockwiseLeft;
    public Animator clockwiseRight;
+   public Animator exitOpen;
+   public Animator unlocked1;
+   public Animator unlocked2;
+   public Animator unlocked3;
 
  private void Start()
     {
@@ -48,6 +52,9 @@ public class GearBox : MonoBehaviour
         counterClock.SetTrigger("gearRotation");
         clockwiseRight.SetTrigger("gearTurn");
         clockwiseLeft.SetTrigger("gearTurn");
-       ExitDoor.SetActive(false); // add door open animation here. 
+        unlocked1.SetTrigger("unlock");
+        unlocked2.SetTrigger("unlock");
+        unlocked3.SetTrigger("unlock");
+       exitOpen.SetTrigger("exitDoorOpen"); // add door open animation here. 
     }
 }
