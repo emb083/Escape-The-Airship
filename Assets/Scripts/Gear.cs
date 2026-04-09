@@ -25,11 +25,14 @@ public class Gear : MonoBehaviour {
 
   private Coroutine turningCoroutine;
 
+  public int gearID;
+
   private void Start() {
     State = State.IDLE;
     turningCoroutine = null;
 
     connected = (transform.rotation.x == 0) ? true : false;
+    print($"Gear #{gearID} connected: {connected}");
 
     allowedTransitions = new() {
       new(State.IDLE, State.TURNING),
@@ -113,11 +116,13 @@ public class Gear : MonoBehaviour {
   }
 
   private void StateExit_Turning() {
-    if (transform.rotation.x == 0 || transform.rotation.x == -180){
+    float curRot = transform.localEulerAngles.x;
+    if (curRot == 0 || curRot == -180){
         connected = true;
     } else {
         connected = false;
     }
+    print($"Gear #{gearID} connected: {connected}");
   }
 
   private void StateExit_Disabled() {
