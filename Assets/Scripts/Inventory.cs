@@ -50,4 +50,29 @@ public class Inventory : MonoBehaviour {
     }
     return false; //unable to add to inventory.
   }
+public int NumberOfGears() // This method counts the number of gears in the inventory.
+  {
+    int Count=0;
+    for (int i=0; i <slots.Count; i++)
+    {
+      if (slots[i].item is InventoryItem_Gear)
+      {
+        Count++;
+      }
+    }
+    return Count;
+  }
+
+  public void RemoveGear(int amountOf) // This will remove the gears from the inventory and hide the UI images.
+  {
+    for (int i =0; i<slots.Count && amountOf>0; i++)
+    {
+      if (slots[i].item is InventoryItem_Gear)
+      {
+        slots[i].item=null;
+        slots[i].img.gameObject.SetActive(false);
+        amountOf--;
+      }
+    }
+  }
 }
