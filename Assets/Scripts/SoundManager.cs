@@ -85,7 +85,7 @@ public class SoundManager : MonoBehaviour {
       audioSrc.volume = Random.Range(0.7f, 1.0f) * Instance.mainVolume;
       audioSrc.pitch = pitch >= 0 ? pitch : Random.Range(0.75f, 1.25f);
       audioSrc.clip = Instance.sounds[type].GetRandClip();
-      audioSrc.Play();
+      audioSrc.PlayOneShot(audioSrc.clip);
     }
   }
 }
