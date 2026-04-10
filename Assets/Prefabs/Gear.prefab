@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4235864630507860843}
   - component: {fileID: 7247443044095853851}
   - component: {fileID: 6524742265001857047}
+  - component: {fileID: 530645745887004730}
   m_Layer: 0
   m_Name: Gear
   m_TagString: Clickable
@@ -184,6 +185,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2347676662416959905}
+--- !u!95 &530645745887004730
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2283257387525521847}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e4b3e4a9d7fac834ba561926ee121ad6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &-6748727346986970042
 MonoBehaviour:
   m_ObjectHideFlags: 0
