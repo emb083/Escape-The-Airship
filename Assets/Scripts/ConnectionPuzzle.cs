@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class ConnectionPuzzle : MonoBehaviour {
   // set in inspector
-  public List<Gear> gears;
-  public GameObject fallingGear;
-  public Animator gearDrop;
+  public List<Conductor> gears;
+
   // private fields
   private Animator roomDoorAnimator;
   private int[] code;
 
   private void Start() {
-    fallingGear.SetActive(false);
     roomDoorAnimator = GetComponent<Animator>();
   }
 
@@ -25,8 +23,7 @@ public class ConnectionPuzzle : MonoBehaviour {
       SoundManager.Play(SoundType.ZAP);
       gears.ForEach(gear => gear.ChangeState(ConductorState.DISABLED));
       roomDoorAnimator.SetTrigger("Door Open");
-      fallingGear.SetActive(true);
-      gearDrop.SetTrigger("falling");
+      SoundManager.Play(SoundType.DOOR);
     }
   }
 }
