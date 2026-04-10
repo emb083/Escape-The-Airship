@@ -10,6 +10,10 @@ public enum SoundType {
   OPEN,
   LIGHT,
   GEAR,
+  CONDUCTOR,
+  BUTTON,
+  ZAP,
+  DOOR
 }
 
 public class SoundCollection {
@@ -66,6 +70,10 @@ public class SoundManager : MonoBehaviour {
       {SoundType.LIGHT, new SoundCollection("light_sound")},
       //{SoundType.WALKING, new SoundCollection("walking") },
       {SoundType.GEAR, new SoundCollection("gear_turning")},
+      {SoundType.CONDUCTOR, new SoundCollection("squeak-turn")},
+      {SoundType.BUTTON, new SoundCollection("button-press")},
+      {SoundType.ZAP, new SoundCollection("zap")},
+      {SoundType.DOOR, new SoundCollection("door")}
     };
   }
 

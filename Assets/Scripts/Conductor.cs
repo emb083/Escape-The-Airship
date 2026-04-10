@@ -2,15 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
-using State = GearState;
+using State = ConductorState;
 
-public enum GearState {
+public enum ConductorState {
   IDLE,
   TURNING,
   DISABLED
 }
 
-public class Gear : MonoBehaviour {
+public class Conductor : MonoBehaviour {
   public State State { get; private set; }
   private HashSet<KeyValuePair<State, State>> allowedTransitions;
 
@@ -94,6 +94,7 @@ public class Gear : MonoBehaviour {
     t = 0;
     //SoundManager.Play(SoundType.TUMBLE);
     turningCoroutine = StartCoroutine(Turn());
+    SoundManager.Play(SoundType.CONDUCTOR);
   }
 
   private void StateEnter_Disabled() {
