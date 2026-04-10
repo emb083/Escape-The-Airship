@@ -5,6 +5,7 @@ using UnityEngine;
 public class ConnectionPuzzle : MonoBehaviour {
   // set in inspector
   public List<Conductor> gears;
+  public List<ParticleSystem> sparks;
   public GameObject keyGear;
   public Animator gearFalling;
 
@@ -27,6 +28,9 @@ public class ConnectionPuzzle : MonoBehaviour {
     }
     if (solved) {
       isSolved=true;
+      for (int i=0; i<sparks.Count; i++){
+        sparks[i].Play();
+      }
       SoundManager.Play(SoundType.ZAP);
       gears.ForEach(gear => gear.ChangeState(ConductorState.DISABLED));
       roomDoorAnimator.SetTrigger("Door Open");

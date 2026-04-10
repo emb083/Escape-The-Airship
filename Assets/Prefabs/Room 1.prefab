@@ -9727,7 +9727,7 @@ MonoBehaviour:
   - Assets/YughuesFreeMetalMaterials/Materials/M_YFMeM_23.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b8f3b1e4-fc31-430f-b317-5aa75ad3ac32
+    name: UM_OperatedMesh_30f9ffe5-0bd1-49ce-a326-6b211046c015
     skinnedMesh: 0
     sharedMesh: {fileID: -1088996171831345066}
     buidVersion:
@@ -9740,7 +9740,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b8f3b1e4-fc31-430f-b317-5aa75ad3ac32
+  sourceMeshRendererGUID: 30f9ffe5-0bd1-49ce-a326-6b211046c015
   guid: 3588ac2f-7d48-494a-bdcd-33b34d8d1cd6
   localOptions:
     RecalculateTangents: 0
@@ -24383,7 +24383,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ef587ad7-4180-4417-b261-42e2842021df
+    name: UM_OperatedMesh_b814656a-129e-46c4-8b0c-d30702976b3c
     skinnedMesh: 0
     sharedMesh: {fileID: -7207550772703037440}
     buidVersion:
@@ -24396,7 +24396,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ef587ad7-4180-4417-b261-42e2842021df
+  sourceMeshRendererGUID: b814656a-129e-46c4-8b0c-d30702976b3c
   guid: b0ec2ee3-f233-40c9-bc3b-62600b57c28d
   localOptions:
     RecalculateTangents: 0
@@ -24608,7 +24608,7 @@ MonoBehaviour:
   - Assets/YughuesFreeMetalMaterials/Materials/M_YFMeM_08.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b1152a1c-65e5-4604-8bea-d59aa3f0eb52
+    name: UM_OperatedMesh_ca64e2ee-d5d1-46a4-aabc-d9e86baf4139
     skinnedMesh: 0
     sharedMesh: {fileID: -8515318746553714910}
     buidVersion:
@@ -24621,7 +24621,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b1152a1c-65e5-4604-8bea-d59aa3f0eb52
+  sourceMeshRendererGUID: ca64e2ee-d5d1-46a4-aabc-d9e86baf4139
   guid: 02051ca8-56e1-492b-823e-8d09ec84467c
   localOptions:
     RecalculateTangents: 0
@@ -24925,7 +24925,7 @@ MonoBehaviour:
   - Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Materials/Metal_Black.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ed4bcf9b-16ab-48c6-8a7a-d8838eb7c087
+    name: UM_OperatedMesh_9ab1825c-9658-4d42-aded-91ba8f1956e5
     skinnedMesh: 0
     sharedMesh: {fileID: -7451448178076105948}
     buidVersion:
@@ -24938,7 +24938,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ed4bcf9b-16ab-48c6-8a7a-d8838eb7c087
+  sourceMeshRendererGUID: 9ab1825c-9658-4d42-aded-91ba8f1956e5
   guid: 428c2979-559f-4ff6-a757-15289ca9abdc
   localOptions:
     RecalculateTangents: 0
@@ -29939,6 +29939,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5493485161122107432}
     - target: {fileID: 8012011643491796008, guid: 10141099e5f0c9941ae4760981f50102, type: 3}
+      propertyPath: sparks.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8012011643491796008, guid: 10141099e5f0c9941ae4760981f50102, type: 3}
       propertyPath: 'gears.Array.data[0]'
       value: 
       objectReference: {fileID: 1048320090746203876}
@@ -29958,6 +29962,30 @@ PrefabInstance:
       propertyPath: 'gears.Array.data[4]'
       value: 
       objectReference: {fileID: 430814412028176208}
+    - target: {fileID: 8012011643491796008, guid: 10141099e5f0c9941ae4760981f50102, type: 3}
+      propertyPath: 'sparks.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2981142251739166205}
+    - target: {fileID: 8012011643491796008, guid: 10141099e5f0c9941ae4760981f50102, type: 3}
+      propertyPath: 'sparks.Array.data[1]'
+      value: 
+      objectReference: {fileID: 7140841368095674990}
+    - target: {fileID: 8012011643491796008, guid: 10141099e5f0c9941ae4760981f50102, type: 3}
+      propertyPath: 'sparks.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1760885348297165808}
+    - target: {fileID: 8012011643491796008, guid: 10141099e5f0c9941ae4760981f50102, type: 3}
+      propertyPath: 'sparks.Array.data[3]'
+      value: 
+      objectReference: {fileID: 960677587787706084}
+    - target: {fileID: 8012011643491796008, guid: 10141099e5f0c9941ae4760981f50102, type: 3}
+      propertyPath: 'sparks.Array.data[4]'
+      value: 
+      objectReference: {fileID: 1055604024523266708}
+    - target: {fileID: 8012011643491796008, guid: 10141099e5f0c9941ae4760981f50102, type: 3}
+      propertyPath: 'sparks.Array.data[5]'
+      value: 
+      objectReference: {fileID: 4151367784888936095}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
