@@ -1,8 +1,8 @@
 using UnityEngine;
 
 public class RotateConductor : MonoBehaviour {
-  public Gear gear1;
-  public Gear gear2;
+  public Conductor gear1;
+  public Conductor gear2;
 
   public void Grab() {
     SoundManager.Play(SoundType.BUTTON);
