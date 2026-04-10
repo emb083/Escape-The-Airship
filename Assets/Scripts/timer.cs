@@ -69,7 +69,6 @@ public class timer : MonoBehaviour
 
         yield return new WaitForSeconds(delayBefore);
 
-        Time.timeScale = 0f;
 
         SceneManager.LoadScene("Ending");
         EscapeShipAnimation.won = false;
