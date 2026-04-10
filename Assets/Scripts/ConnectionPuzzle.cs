@@ -8,7 +8,6 @@ public class ConnectionPuzzle : MonoBehaviour {
 
   // private fields
   private Animator roomDoorAnimator;
-  private int[] code;
 
   private void Start() {
     roomDoorAnimator = GetComponent<Animator>();
