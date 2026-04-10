@@ -1,24 +1,23 @@
 using UnityEngine;
 using System.Collections;
-using TMPro;
 
 public class timer : MonoBehaviour
 {
-    public float startingTime = 600f; // 10 minutes
-    public TextMeshProUGUI timerHUD;
+    public float startingTime = 600f;
+    public Light[] lights;
     public MonoBehaviour PlayerMovement;
     public MonoBehaviour PlayerCam;
-
-    public string gameOverTrigger = "GameOver";
     public float delayBefore = 2f;
 
     private float curTime;
     private bool isGameOver;
+    private int nextLight;
 
     void Start()
     {
         curTime = startingTime;
-        UpdateText();
+
+        
     }
 
     void Update()
@@ -28,22 +27,30 @@ public class timer : MonoBehaviour
 
         curTime -= Time.deltaTime;
 
-        if (curTime <= 0f)
+        lightsOut();
+
+        if (curTime <= 0f && !isGameOver)
         {
             curTime = 0f;
-            UpdateText();
             StartCoroutine(TheEnd());
-            return;
         }
-
-        UpdateText();
     }
 
-    private void UpdateText()
+    void lightsOut()
     {
-        int minutes = Mathf.FloorToInt(curTime / 60f);
-        int seconds = Mathf.FloorToInt(curTime % 60f);
-        timerHUD.text = $"{minutes:00}:{seconds:00}";
+        float[] timesOff = { 480f, 360f, 240f, 120f, 0f };
+
+        while (nextLight < timesOff.Length && curTime <= timesOff[nextLight])
+        {
+            
+
+            if (nextLight < lights.Length && lights[nextLight] != null)
+            {
+                lights[nextLight].enabled = false; 
+            }
+
+            nextLight++;
+        }
     }
 
     private IEnumerator TheEnd()
