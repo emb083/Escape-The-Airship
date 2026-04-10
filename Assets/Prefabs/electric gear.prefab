@@ -50,12 +50,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: ac9db7752f3682c4d8cdcca1fb220d08, type: 2}
+  - {fileID: 2100000, guid: 4c26834400b6b15428a4e9d538deed7e, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_231a2b52-4305-4999-b3af-946292bcfa5c
+    name: UM_OperatedMesh_327e5c9b-5d3a-403a-87bd-56042f04d78d
     skinnedMesh: 0
     sharedMesh: {fileID: -310955465139000235}
     buidVersion:
@@ -68,7 +68,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 231a2b52-4305-4999-b3af-946292bcfa5c
+  sourceMeshRendererGUID: 327e5c9b-5d3a-403a-87bd-56042f04d78d
   guid: 6b571bfc-c42b-40a3-95bf-357e30e25e30
   localOptions:
     RecalculateTangents: 0
@@ -123,7 +123,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ac9db7752f3682c4d8cdcca1fb220d08, type: 2}
+  - {fileID: 2100000, guid: 4c26834400b6b15428a4e9d538deed7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -198,12 +198,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: ac9db7752f3682c4d8cdcca1fb220d08, type: 2}
+  - {fileID: 2100000, guid: 4c26834400b6b15428a4e9d538deed7e, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3aa5a074-ed76-4b5a-a3db-26654fa07cd4
+    name: UM_OperatedMesh_ac30ef2b-6c53-4b79-a8ee-74554f84c951
     skinnedMesh: 0
     sharedMesh: {fileID: 449896096339589203}
     buidVersion:
@@ -216,7 +216,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3aa5a074-ed76-4b5a-a3db-26654fa07cd4
+  sourceMeshRendererGUID: ac30ef2b-6c53-4b79-a8ee-74554f84c951
   guid: 121f2da5-9c15-42e6-aa7f-dad1a87c6a71
   localOptions:
     RecalculateTangents: 0
@@ -271,7 +271,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ac9db7752f3682c4d8cdcca1fb220d08, type: 2}
+  - {fileID: 2100000, guid: 4c26834400b6b15428a4e9d538deed7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
