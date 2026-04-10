@@ -92,7 +92,6 @@ public class Conductor : MonoBehaviour {
     curRot = transform.rotation;
     targetRot = curRot * Quaternion.Euler(Vector3.right * 90);
     t = 0;
-    //SoundManager.Play(SoundType.TUMBLE);
     turningCoroutine = StartCoroutine(Turn());
     SoundManager.Play(SoundType.CONDUCTOR);
   }

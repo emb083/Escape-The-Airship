@@ -4,7 +4,7 @@ using TMPro;
 
 public class timer : MonoBehaviour
 {
-    public float startingTime = 1500f; // 25 minutes
+    public float startingTime = 600f; // 10 minutes
     public TextMeshProUGUI timerHUD;
     public MonoBehaviour PlayerMovement;
     public MonoBehaviour PlayerCam;
