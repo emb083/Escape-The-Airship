@@ -11,7 +11,7 @@ public class Exit : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             SceneManager.LoadScene("Ending");
-            Debug.Log("exited");
+            EscapeShipAnimation.won = true;
         }
     }
 }

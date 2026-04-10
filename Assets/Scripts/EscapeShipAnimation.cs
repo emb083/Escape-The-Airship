@@ -4,7 +4,7 @@ using UnityEngine;
 public class EscapeShipAnimation : MonoBehaviour
 {
     private Animator animator;
-    public bool won;
+    public static bool won;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

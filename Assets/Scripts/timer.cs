@@ -1,5 +1,6 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class timer : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class timer : MonoBehaviour
 
     private float curTime;
     private bool isGameOver;
-    private int nextLight;
+    private int nextLight = 0;
 
     void Start()
     {
@@ -69,5 +70,9 @@ public class timer : MonoBehaviour
         yield return new WaitForSeconds(delayBefore);
 
         Time.timeScale = 0f;
+
+        SceneManager.LoadScene("Ending");
+        EscapeShipAnimation.won = false;
+
     }
 }
